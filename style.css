@@ -1,0 +1,262 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+/* **HOME PAGE MENU** */
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;  
+}
+
+/* ***Home page heading*** */
+#home-logo-text{
+    width: 50%;
+    height: 100px;
+    display:block;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+#home-logo-img{
+    width: 100px;
+    margin: auto;
+    display: block;
+    padding: 25px 10px 0px 10px;
+}
+#home-slip h3{
+    text-align: center;
+    color: white;
+}
+
+/* ***Form properties*** */
+.input-message{
+    width: 100%;
+    height: 25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.button{
+    display : block;
+    background-color: black;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+     margin : 12px 0;
+    padding : 8px 0;
+}
+
+#tabs-bottom{
+    display : block;
+    background-color: gray;
+    text-decoration : none;
+    text-align  : center;
+    color       : red;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
+
+/* ****Background image on home page**** */
+.body-home{
+    background-image: url('images/wall-port.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:cover ;
+    }
+
+.body-meals{
+        background-image: url('images/Background-1.0.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:cover ;
+}
+
+/* ***meals *** */
+.meals-list a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%; 
+    }
+    
+#meals{
+    padding-top: 80px;
+} 
+
+.header{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 60px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    
+}
+
+.header i{
+    float: left; 
+    padding:17px 0px 0px 17px;
+    color: white;
+}    
+
+#header-png{
+    width: 40%;
+    height: 60px;
+    display:block;
+    
+    position: fixed;
+    right: 390px;
+    left: 30%;
+    
+}
+
+/***** RECIPE PAGE *****/
+#menu{
+    padding-top: 80px;
+}
+
+/***** RECIPE DETAILS *****/
+.menu-details img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+.menu-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding:5px ;
+}
+
+.menu-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+.menu-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.menu-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.menu-details-ingredients label{
+height: 25px;
+margin-left: 10px;
+
+}
+
+.menu-details-ingredients h2{
+    padding-bottom: 10px;
+}
+
+
+/* ***fontsAwesome on breakfast*** */
+.meals-list-item i{
+    float: right;
+    color:white;
+    padding-right: 20px;
+}
+
+
+/* **Layout** */
+@media only screen and (min-width:600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    #menu{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width : 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    #menu{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width : 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    #menu{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width : 659px){
+    .body-home{
+        background-image: url(images/wall.jpg);
+    }
+    .body-meals{
+        background-image: url(images/Background.jpg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
